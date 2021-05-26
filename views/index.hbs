@@ -1,0 +1,18 @@
+<h1>Today's weather in {{name}}: {{temp}} °C</h1>
+<ul>
+    <li>Temp: {{temp}}</li>
+    <li>Feels like temp: {{data.feels_like}}</li>  
+    <li>Type: {{data.type}}</li>
+    <li>More info: {{data.description}}</li> 
+    <li>Wind Speed: {{data.wind}}mps</li>
+    <li>Humidity: {{data.hum}}</li>
+</ul>
+    {{!-- <ul>
+        {{#each data}}
+            <li>{{@key}}: {{this}}</li>
+        {{/each}}    
+    </ul> --}}
+{{!-- <h2>feels like: {{feels}}°C</h2>
+<h2>{{type}}: {{desc}}</h2> --}}
+
+<a class="btn-style" href="/weather">What's the weather?</a>
